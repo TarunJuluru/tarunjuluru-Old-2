@@ -25,6 +25,11 @@ body {
     /* optional: just make scrollbar invisible */
 }
 
+a:hover,
+button:hover {
+    cursor: pointer;
+}
+
 section {
     margin-top: 8rem;
 }
@@ -121,9 +126,7 @@ header .heading-container h3 {
 }
 
 #about .left a {
-    text-decoration: none;
     font-size: .8rem;
-    color: black;
     letter-spacing: .1rem;
 }
 
@@ -145,6 +148,25 @@ header .heading-container h3 {
     color: #1769FF;
 }
 
+#behance button a {
+    text-decoration: none;
+    color: #1769FF;
+}
+
+#behance button {
+    background-color: white;
+}
+
+#behance button:hover a {
+    color: white;
+    transition: color 200ms ease-in;
+}
+
+#behance button:hover {
+    background-color: #1769FF;
+    transition: background 200ms ease-in;
+}
+
 #behance .behance-content {
     padding-left: 8rem;
 }
@@ -164,6 +186,25 @@ header .heading-container h3 {
 
 #github button {
     color: #6CC644;
+}
+
+#github button a {
+    text-decoration: none;
+    color: #6CC644;
+}
+
+#github button {
+    background-color: white;
+}
+
+#github button:hover a {
+    color: white;
+    transition: color 200ms ease-in;
+}
+
+#github button:hover {
+    background-color: #6CC644;
+    transition: background 200ms ease-in;
 }
 
 #github .github-content {
@@ -196,6 +237,25 @@ header .heading-container h3 {
     color: #000000;
 }
 
+#codepen button a {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+#codepen button {
+    background-color: black;
+}
+
+#codepen button:hover a {
+    color: black;
+    transition: color 200ms ease-in;
+}
+
+#codepen button:hover {
+    background-color: #CCCCCC;
+    transition: background 200ms ease-in;
+}
+
 #notion .container {
     background-color: #EB5757;
     color: white;
@@ -214,6 +274,25 @@ header .heading-container h3 {
 
 #notion button {
     color: #EB5757;
+}
+
+#notion button a {
+    text-decoration: none;
+    color: #EB5757;
+}
+
+#notion button {
+    background-color: white;
+}
+
+#notion button:hover a {
+    color: white;
+    transition: color 200ms ease-in;
+}
+
+#notion button:hover {
+    background-color: #EB5757;
+    transition: background 200ms ease-in;
 }
 
 #reach-me-out {
@@ -237,6 +316,18 @@ footer {
     margin-bottom: 8rem;
 }
 
+footer .feather {
+    width: 2rem;
+    height: 4rem;
+    stroke: black;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    padding: 2rem 0rem;
+}
+
 footer address {
     font-size: .9rem;
+    margin-top: 2rem;
 }
