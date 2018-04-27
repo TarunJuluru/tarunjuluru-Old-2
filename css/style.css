@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-icon {
+    stroke: black;
+    stroke-linecap: square;
+}
+
+html,
+body {
+    margin: 0 auto;
+    font-size: 14px;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */
+}
+
+section {
+    margin-top: 140px;
+}
+
+section h5 {
+    font-family: 'PT Mono', monospace;
+    letter-spacing: .2rem;
+    font-size: .9rem;
+    margin-bottom: 80px;
+}
+
+nav {
+    font-family: 'PT Mono', monospace;
+    background-color: #f2f2f2;
+}
+
+nav .navbar-nav {
+    letter-spacing: .1rem;
+}
+
+nav .navbar-brand {
+    font-size: 1rem;
+    letter-spacing: .12rem;
+    font-weight: 600;
+}
+
+header {
+    background-color: #f2f2f2;
+}
+
+header .heading-container {
+    height: 80vh;
+    font-family: 'PT Mono', monospace;
+    padding-bottom: 10vh;
+}
+
+header .heading-container h3 {
+    line-height: 2.6rem;
+    width: 60%;
+}
+
+#about .container {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#about img {
+    width: 30%;
+    height: auto;
+}
+
+#about .left {
+    padding-right: 4rem;
+}
+
+#about .left a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: black;
+    letter-spacing: .1rem;
+}
