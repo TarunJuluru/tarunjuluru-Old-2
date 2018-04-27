@@ -26,7 +26,7 @@ body {
 }
 
 section {
-    margin-top: 14rem;
+    margin-top: 8rem;
 }
 
 @media (max-width: 576px) {
@@ -40,6 +40,10 @@ section h5 {
     letter-spacing: .2rem;
     font-size: 1.1rem;
     margin-bottom: 4rem;
+}
+
+section .mb {
+    margin-bottom: 6rem;
 }
 
 section h6 {
@@ -56,11 +60,11 @@ section p {
 
 section button {
     font-family: 'PT Mono', monospace;
-    font-size: .8rem;
     background-color: #fff;
     border: none;
-    padding: .6rem;
     letter-spacing: .1rem;
+    font-size: .8rem;
+    padding: .4rem 1rem;
 }
 
 section img {
@@ -99,6 +103,7 @@ header .heading-container h3 {
 
 #about .container {
     font-family: 'Quicksand', sans-serif;
+    margin-bottom: 10rem;
 }
 
 #about .container p {
@@ -209,4 +214,29 @@ header .heading-container h3 {
 
 #notion button {
     color: #EB5757;
+}
+
+#reach-me-out {
+    width: 80%;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+#reach-me-out input::placeholder,
+textarea::placeholder {
+    font-size: .8rem;
+}
+
+#reach-me-out button {
+    font-size: .9rem;
+    padding: .4rem 2rem;
+}
+
+footer {
+    font-family: 'PT Mono', monospace;
+    margin-bottom: 8rem;
+}
+
+footer address {
+    font-size: .9rem;
 }
