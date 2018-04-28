@@ -96,9 +96,9 @@ header {
 }
 
 header .heading-container {
-    height: 80vh;
+    height: 90vh;
     font-family: 'PT Mono', monospace;
-    padding-bottom: 10vh;
+    /*    padding-bottom: 10vh;*/
 }
 
 header .heading-container h3 {
