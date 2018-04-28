@@ -19,10 +19,18 @@ $(document).ready(function () {
     // Active link switching
     $(window).scroll(function () {
 
-        scrollLink.on('click', function (event) {
-            $(event.currentTarget).parent().addClass('active');
-            $(event.currentTarget).parent().siblings().removeClass('active');
+        var scrollbarLocation = $(this).scrollTop();
+
+        scrollLink.each(function () {
+
+            var sectionOffset = $(this.hash).offset().top - 160;
+
+            if (sectionOffset <= scrollbarLocation) {
+                $(this).parent().addClass('active');
+                $(this).parent().siblings().removeClass('active');
+            }
         });
+
     });
 
     //collapsing nav bar when clicked on nav links

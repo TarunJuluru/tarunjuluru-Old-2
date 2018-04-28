@@ -13,6 +13,7 @@ html,
 body {
     font-size: 14px;
     margin: 0 auto;
+    position: relative;
 }
 
 a:hover,
@@ -303,7 +304,7 @@ textarea::placeholder {
 
 footer {
     font-family: 'PT Mono', monospace;
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
 }
 
 footer .feather {
