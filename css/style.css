@@ -11,18 +11,8 @@
 
 html,
 body {
-    margin: 0 auto;
     font-size: 14px;
-    height: 100%;
-    overflow: scroll;
-    overflow-x: hidden;
-}
-
-::-webkit-scrollbar {
-    width: 0px;
-    /* remove scrollbar space */
-    background: transparent;
-    /* optional: just make scrollbar invisible */
+    margin: 0 auto;
 }
 
 a:hover,
