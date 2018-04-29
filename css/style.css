@@ -103,7 +103,7 @@ nav .navbar-brand {
         height: 100vh;
     }
     .navbar-nav li {
-        padding-bottom: 4vh;
+        padding-bottom: 8vh;
     }
 }
 
@@ -114,12 +114,27 @@ header {
 header .heading-container {
     height: 90vh;
     font-family: 'PT Mono', monospace;
-    /*    padding-bottom: 10vh;*/
 }
 
 header .heading-container h3 {
-    line-height: 2.6rem;
+    line-height: 3rem;
     width: 60%;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-4px)
+    }
+    50% {
+        transform: translateY(8px)
+    }
+    100% {
+        transform: translateY(-4px)
+    }
+}
+
+header .scroll-down {
+    animation: bounce 2s infinite alternate ease-in-out;
 }
 
 #about .container {
@@ -162,15 +177,12 @@ header .heading-container h3 {
 
 #behance button {
     color: #1769FF;
+    background-color: white;
 }
 
 #behance button a {
     text-decoration: none;
     color: #1769FF;
-}
-
-#behance button {
-    background-color: white;
 }
 
 #behance button:hover a {
@@ -202,15 +214,12 @@ header .heading-container h3 {
 
 #github button {
     color: #6CC644;
+    background-color: white;
 }
 
 #github button a {
     text-decoration: none;
     color: #6CC644;
-}
-
-#github button {
-    background-color: white;
 }
 
 #github button:hover a {
@@ -251,15 +260,12 @@ header .heading-container h3 {
 
 #codepen button {
     color: #000000;
+    background-color: black;
 }
 
 #codepen button a {
     text-decoration: none;
     color: #CCCCCC;
-}
-
-#codepen button {
-    background-color: black;
 }
 
 #codepen button:hover a {
@@ -290,15 +296,12 @@ header .heading-container h3 {
 
 #notion button {
     color: #EB5757;
+    background-color: white;
 }
 
 #notion button a {
     text-decoration: none;
     color: #EB5757;
-}
-
-#notion button {
-    background-color: white;
 }
 
 #notion button:hover a {

@@ -37,4 +37,5 @@ $(document).ready(function () {
     scrollLink.on('click', function () {
         $('.navbar-collapse').collapse('hide');
     });
+
 });
