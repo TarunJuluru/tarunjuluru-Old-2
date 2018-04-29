@@ -56,6 +56,7 @@
                 </div>
             </div>
         </div>
+        <div class="w-100 pb-4 text-center"><a class="nav-link text-dark" href="#about"><span data-feather="chevron-down"></span></a></div>
     </header>
 
     <section id="about">
@@ -65,7 +66,7 @@
                 <div class="col-sm col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 left text-md-right text-sm-center text-center mb-md-0 mb-sm-4 mb-4 pr-sm-0 pr-md-5 pr-0">
                     <img d-block class="img-fluid rounded" src="images/about/tarun_juluru.jpg" alt="me">
                     <a class="d-block text-capitalize text-md-right text-sm-center pt-3 font-weight-bold" href="https://www.linkedin.com/in/tarunjuluru" target="_blank">linked profile -</a>
-                    <a class="d-block text-capitalize text-md-right text-sm-center pt-1 font-weight-bold" href="#">download resume -</a>
+                    <a class="d-block text-capitalize text-md-right text-sm-center pt-1 font-weight-bold" href="https://drive.google.com/file/d/1z6a8pgxDUeiUUAN2sg4UDf-Fej--sCvQ/view?usp=sharing" target="_blank">download resume -</a>
                 </div>
                 <div class="col-sm col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12 mt-md-0 mt-sm-4 p-sm-0 p-4 right">
                     <p>Learning <b>design</b> skills (web and graphics)</p>
@@ -151,38 +152,42 @@
     <section id="reach-me-out">
         <h5 class="text-uppercase text-center font-weight-bold">reach me out</h5>
         <div class="container p-4">
-            <form>
+            <form method="post">
                 <div class="form-row">
                     <div class="form-group col-md-6 col-sm-12 col-12">
-                        <input type="text" class="form-control rounded-0 border-dark text-uppercase mb-4" id="fullname" name="fullname" placeholder="full name">
+                        <input type="text" required class="form-control rounded-0 border-dark mb-4" id="fullname" name="fullname" placeholder="full name*">
                     </div>
                     <div class="form-group col-md-6 col-sm-12 col-12">
-                        <input type="email" class="form-control rounded-0 border-dark text-uppercase mb-4" id="email" name="email" placeholder="email">
+                        <div class="input-group">
+                            <input type="email" required class="form-control rounded-0 border-dark mb-4" id="email" name="email" placeholder="email*">
+                            <span class="input-group-append d-inline-block">
+                                <span class="input-group-text rounded-0 border-dark bg-dark text-light">.com</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group col-sm-12 col-12">
+                        <input type="text" required class="form-control rounded-0 border-dark mb-4" id="subject" name="subject" placeholder="subject*">
                     </div>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control rounded-0 border-dark text-uppercase mb-5" id="subject" name="subject" placeholder="subject">
+                    <textarea type="text" class="form-control rounded-0 border-dark mb-4" rows="8" id="massage" placeholder="massage"></textarea>
                 </div>
-                <div class="form-group">
-                    <textarea type="text" class="form-control rounded-0 border-dark text-uppercase mb-4" rows="8" id="massage" placeholder="massage"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary rounded-0 border-0 bg-dark text-uppercase">Send</button>
+                <button type="submit" class="btn text-light text-uppercase rounded-0 border-0 bg-dark">Send</button>
             </form>
         </div>
     </section>
 
     <footer>
         <div class="container mt-4 mb-5 w-75">
-            <a href="https://twitter.com/tarunjuluru" target="_blank"><span class="feather" data-feather="twitter"></span></a>
-            <a href="https://www.linkedin.com/in/tarunjuluru" target="_blank"><span class="feather" data-feather="linkedin"></span></a>
-            <a href="https://www.instagram.com/tarun_juluru/" target="_blank"><span class="feather" data-feather="instagram"></span></a>
-            <a href="https://facebook.com/tarunjuluru" target="_blank"><span class="feather" data-feather="facebook"></span></a>
+            <a href="https://twitter.com/tarunjuluru" target="_blank"><span class="feather twitter" data-feather="twitter"></span></a>
+            <a href="https://www.linkedin.com/in/tarunjuluru" target="_blank"><span class="feather linkedin" data-feather="linkedin"></span></a>
+            <a href="https://www.instagram.com/tarun_juluru/" target="_blank"><span class="feather instagram" data-feather="instagram"></span></a>
+            <a href="https://facebook.com/tarunjuluru" target="_blank"><span class="feather facebook" data-feather="facebook"></span></a>
             <address class="font-weight-bold mb-4">TARUN.DESIGN99@GMAIL.COM</address>
-            <p class="mb-3">Thank you for visiting and feel free to reach me out any time</p>
+            <p class="mb-3">Thank you for being here and feel free to reach me out any time</p>
             <p>I will get back to you as soon as possible :) </p>
         </div>
     </footer>
-
 
 
     <!-- Optional JavaScript -->

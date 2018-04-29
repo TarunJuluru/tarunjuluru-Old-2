@@ -16,6 +16,15 @@ body {
     position: relative;
 }
 
+body {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 a:hover,
 button:hover {
     cursor: pointer;
@@ -80,6 +89,22 @@ nav .navbar-brand {
     font-size: 1rem;
     letter-spacing: .12rem;
     font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .navbar-nav {
+        height: 100vh;
+    }
+    .navbar-nav li {
+        padding-bottom: 4vh;
+    }
 }
 
 header {
@@ -295,6 +320,7 @@ header .heading-container h3 {
 #reach-me-out input::placeholder,
 textarea::placeholder {
     font-size: .8rem;
+    text-transform: capitalize;
 }
 
 #reach-me-out button {
@@ -316,6 +342,26 @@ footer .feather {
     stroke-linejoin: round;
     fill: none;
     padding: 2rem 0rem;
+}
+
+footer .twitter:hover {
+    fill: #1da1f2;
+    stroke: white;
+}
+
+footer .linkedin:hover {
+    fill: #0077b5;
+    stroke: white;
+}
+
+footer .instagram:hover {
+    fill: #dc044f;
+    stroke: white;
+}
+
+footer .facebook:hover {
+    fill: #3b5a9a;
+    stroke: white;
 }
 
 footer address {
