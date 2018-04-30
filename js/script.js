@@ -3,13 +3,13 @@
 /*global $*/
 /*$ = jQuery*/
 
-$(document).ready(function () {
+$(document).ready(function() {
     "use strict";
 
     var scrollLink = $('.nav-link');
 
     // Smooth scrolling
-    scrollLink.click(function (event) {
+    scrollLink.click(function(event) {
         event.preventDefault();
         $('body,html').animate({
             scrollTop: $(this.hash).offset().top - 140
@@ -17,11 +17,11 @@ $(document).ready(function () {
     });
 
     // Active link switching
-    $(window).scroll(function () {
+    $(window).scroll(function() {
 
         var scrollbarLocation = $(this).scrollTop();
 
-        scrollLink.each(function () {
+        scrollLink.each(function() {
 
             var sectionOffset = $(this.hash).offset().top - 160;
 
@@ -34,7 +34,7 @@ $(document).ready(function () {
     });
 
     //collapsing nav bar when clicked on nav links
-    scrollLink.on('click', function () {
+    scrollLink.on('click', function() {
         $('.navbar-collapse').collapse('hide');
     });
 

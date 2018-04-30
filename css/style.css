@@ -1,7 +1,7 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .menu-icon {
@@ -12,10 +12,11 @@
 html,
 body {
     font-size: 14px;
-    margin: 0 auto;
-    position: relative;
-}
 
+    position: relative;
+
+    margin: 0 auto;
+}
 
 body::-webkit-scrollbar {
     display: none;
@@ -38,9 +39,11 @@ section {
 
 section h5 {
     font-family: 'PT Mono', monospace;
-    letter-spacing: .2rem;
     font-size: 1.1rem;
+
     margin-bottom: 4rem;
+
+    letter-spacing: .2rem;
 }
 
 section .mb {
@@ -48,34 +51,40 @@ section .mb {
 }
 
 section h6 {
-    letter-spacing: .2rem;
-    font-size: 1rem;
     font-family: 'PT Mono', monospace;
+    font-size: 1rem;
+
+    letter-spacing: .2rem;
 }
 
 section p {
     font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
+
     width: 74%;
 }
 
 section button {
     font-family: 'PT Mono', monospace;
-    background-color: #fff;
-    border: none;
-    letter-spacing: .1rem;
     font-size: .8rem;
+
     padding: .4rem 1rem;
+
+    letter-spacing: .1rem;
+
+    border: none;
+    background-color: #fff;
 }
 
 section img {
-    box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 40px 40px rgba(0, 0, 0, .14);
 }
 
 nav {
     font-family: 'PT Mono', monospace;
+
     background-color: white;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
 }
 
 nav .navbar-nav {
@@ -84,17 +93,19 @@ nav .navbar-nav {
 
 nav .navbar-brand {
     font-size: 1rem;
-    letter-spacing: .12rem;
     font-weight: 600;
+
+    letter-spacing: .12rem;
 }
 
 @media (max-width: 1200px) {
-
     .navbar-nav {
         display: flex;
-        justify-content: center;
-        align-items: center;
+
         height: 100vh;
+
+        align-items: center;
+        justify-content: center;
     }
     .navbar-nav {
         height: 100vh;
@@ -108,32 +119,33 @@ header {
     background-color: #f2f2f2;
     background-image: url(../images/header/pen_&_paper.jpg);
     background-repeat: no-repeat;
+    background-position: center center;
     -webkit-background-size: cover;
     background-size: cover;
-    background-position: center center;
 }
 
 header .heading-container {
-    height: 90vh;
     font-family: 'PT Mono', monospace;
+
+    height: 90vh;
     padding-top: 10vh;
 }
 
 header .heading-container h3 {
     line-height: 3rem;
-    text-shadow: 0px 1px 3px rgba(255, 255, 255, 0.2);
-}
 
+    text-shadow: 0 1px 3px rgba(255, 255, 255, .2);
+}
 
 @keyframes bounce {
     0% {
-        transform: translateY(-4px)
+        transform: translateY(-4px);
     }
     50% {
-        transform: translateY(8px)
+        transform: translateY(8px);
     }
     100% {
-        transform: translateY(-4px)
+        transform: translateY(-4px);
     }
 }
 
@@ -147,8 +159,8 @@ header .scroll-down {
 
 #about .container {
     font-family: 'Quicksand', sans-serif;
-    margin-bottom: 10rem;
 
+    margin-bottom: 10rem;
 }
 
 #about .container p {
@@ -158,7 +170,8 @@ header .scroll-down {
 #about img {
     width: 30%;
     height: auto;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.14);
+
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, .14);
 }
 
 #about .left {
@@ -167,6 +180,7 @@ header .scroll-down {
 
 #about .left a {
     font-size: .8rem;
+
     letter-spacing: .1rem;
 }
 
@@ -176,31 +190,34 @@ header .scroll-down {
     }
 }
 
-
 #behance .container {
-    background-color: #1769FF;
-    color: white;
     padding: 8rem 4rem;
+
+    color: white;
+    background-color: #1769ff;
 }
 
 #behance button {
-    color: #1769FF;
+    color: #1769ff;
     background-color: white;
 }
 
 #behance button a {
     text-decoration: none;
-    color: #1769FF;
+
+    color: #1769ff;
 }
 
 #behance button:hover a {
-    color: white;
     transition: color 200ms ease-in;
+
+    color: white;
 }
 
 #behance button:hover {
-    background-color: #1769FF;
     transition: background 200ms ease-in;
+
+    background-color: #1769ff;
 }
 
 #behance .behance-content {
@@ -213,31 +230,34 @@ header .scroll-down {
     }
 }
 
-
 #github .container {
-    background-color: #6CC644;
-    color: white;
     padding: 8rem 4rem;
+
+    color: white;
+    background-color: #6cc644;
 }
 
 #github button {
-    color: #6CC644;
+    color: #6cc644;
     background-color: white;
 }
 
 #github button a {
     text-decoration: none;
-    color: #6CC644;
+
+    color: #6cc644;
 }
 
 #github button:hover a {
-    color: white;
     transition: color 200ms ease-in;
+
+    color: white;
 }
 
 #github button:hover {
-    background-color: #6CC644;
     transition: background 200ms ease-in;
+
+    background-color: #6cc644;
 }
 
 #github .github-content {
@@ -251,9 +271,10 @@ header .scroll-down {
 }
 
 #codepen .container {
-    background-color: #CCCCCC;
-    color: black;
     padding: 8rem 4rem;
+
+    color: black;
+    background-color: #ccc;
 }
 
 #codepen .codepen-content {
@@ -267,29 +288,33 @@ header .scroll-down {
 }
 
 #codepen button {
-    color: #000000;
+    color: #000;
     background-color: black;
 }
 
 #codepen button a {
     text-decoration: none;
-    color: #CCCCCC;
+
+    color: #ccc;
 }
 
 #codepen button:hover a {
-    color: black;
     transition: color 200ms ease-in;
+
+    color: black;
 }
 
 #codepen button:hover {
-    background-color: #CCCCCC;
     transition: background 200ms ease-in;
+
+    background-color: #ccc;
 }
 
 #notion .container {
-    background-color: #EB5757;
-    color: white;
     padding: 8rem 4rem;
+
+    color: white;
+    background-color: #eb5757;
 }
 
 #notion .notion-content {
@@ -303,23 +328,26 @@ header .scroll-down {
 }
 
 #notion button {
-    color: #EB5757;
+    color: #eb5757;
     background-color: white;
 }
 
 #notion button a {
     text-decoration: none;
-    color: #EB5757;
+
+    color: #eb5757;
 }
 
 #notion button:hover a {
-    color: white;
     transition: color 200ms ease-in;
+
+    color: white;
 }
 
 #notion button:hover {
-    background-color: #EB5757;
     transition: background 200ms ease-in;
+
+    background-color: #eb5757;
 }
 
 #reach-me-out {
@@ -331,11 +359,13 @@ header .scroll-down {
 #reach-me-out input::placeholder,
 textarea::placeholder {
     font-size: .8rem;
+
     text-transform: capitalize;
 }
 
 #reach-me-out button {
     font-size: .9rem;
+
     padding: .4rem 2rem;
 }
 
@@ -345,11 +375,13 @@ textarea::placeholder {
     #codepen .container,
     #notion .container {
         display: flex;
-        align-items: center;
+
         max-width: 100%;
+        height: 80vh;
         padding: 8rem 14rem;
         padding-top: 10rem;
-        height: 80vh;
+
+        align-items: center;
     }
     #behance .behance-content,
     #github .github-content,
@@ -357,7 +389,6 @@ textarea::placeholder {
     #notion .notion-content {
         padding-top: 4rem;
     }
-
     section {
         margin-top: 0rem;
     }
@@ -365,18 +396,20 @@ textarea::placeholder {
 
 footer {
     font-family: 'PT Mono', monospace;
+
     margin-bottom: 10rem;
 }
 
 footer .feather {
     width: 2rem;
     height: 4rem;
+    padding: 2rem 0rem;
+
     stroke: black;
     stroke-width: 1;
     stroke-linecap: round;
     stroke-linejoin: round;
     fill: none;
-    padding: 2rem 0rem;
 }
 
 footer .twitter:hover {
@@ -401,5 +434,6 @@ footer .facebook:hover {
 
 footer address {
     font-size: .9rem;
+
     margin-top: 2rem;
 }
