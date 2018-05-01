@@ -68,7 +68,7 @@ section button {
     font-family: 'PT Mono', monospace;
     font-size: .8rem;
 
-    padding: .4rem 1rem;
+    padding: .8rem 1.4rem;
 
     letter-spacing: .1rem;
 
@@ -224,12 +224,6 @@ header .scroll-down {
     padding-left: 8rem;
 }
 
-@media (max-width: 576px) {
-    #behance .behance-content {
-        padding-left: 0rem;
-    }
-}
-
 #github .container {
     padding: 8rem 4rem;
 
@@ -264,12 +258,6 @@ header .scroll-down {
     padding-left: 8rem;
 }
 
-@media (max-width: 576px) {
-    #github .github-content {
-        padding-left: 0rem;
-    }
-}
-
 #codepen .container {
     padding: 8rem 4rem;
 
@@ -279,12 +267,6 @@ header .scroll-down {
 
 #codepen .codepen-content {
     padding-left: 8rem;
-}
-
-@media (max-width: 576px) {
-    #codepen .codepen-content {
-        padding-left: 0rem;
-    }
 }
 
 #codepen button {
@@ -319,12 +301,6 @@ header .scroll-down {
 
 #notion .notion-content {
     padding-left: 8rem;
-}
-
-@media (max-width: 576px) {
-    #notion .notion-content {
-        padding-left: 0rem;
-    }
 }
 
 #notion button {
@@ -369,6 +345,12 @@ textarea::placeholder {
     padding: .4rem 2rem;
 }
 
+#reach-me-out input: {
+    border-radius: 4px;
+}
+
+
+
 @media (min-width: 1200px) {
     #behance .container,
     #github .container,
@@ -391,6 +373,15 @@ textarea::placeholder {
     }
     section {
         margin-top: 0rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #behance .behance-content,
+    #github .github-content,
+    #codepen .codepen-content,
+    #notion .notion-content {
+        padding-left: 0rem;
     }
 }
 
