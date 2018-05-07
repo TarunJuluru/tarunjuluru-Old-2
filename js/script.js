@@ -7,6 +7,7 @@ $(document).ready(function() {
     "use strict";
 
     var scrollLink = $('.nav-link');
+    var $backToTop = $(".back-to-top");
 
     // Smooth scrolling
     scrollLink.click(function(event) {
@@ -29,6 +30,14 @@ $(document).ready(function() {
                 $(this).parent().addClass('active');
                 $(this).parent().siblings().removeClass('active');
             }
+        });
+
+        //scroll animation on click
+        $backToTop.on("click", function() {
+            $("html, body").stop().animate({
+                scrollTop: 0
+            }, 2000);
+            return false;
         });
 
     });
