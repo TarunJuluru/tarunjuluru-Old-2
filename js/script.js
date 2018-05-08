@@ -9,7 +9,7 @@ $(document).ready(function() {
     var scrollLink = $('.nav-link');
     var $backToTop = $(".back-to-top");
 
-    // Smooth scrolling
+    // Smooth scrolling through respective sections on clicking nav-links
     scrollLink.click(function(event) {
         event.preventDefault();
         $('body,html').animate({
