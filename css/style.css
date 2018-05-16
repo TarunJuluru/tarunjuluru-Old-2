@@ -42,7 +42,6 @@ button:hover
 
 /*general styles*/
 
-
 /*section styles*/
 
 section
@@ -85,8 +84,11 @@ section p
 {
     font-family: 'Quicksand', sans-serif;
     font-size: 1rem;
+    line-height: 1.8rem;
 
     width: 74%;
+
+    letter-spacing: .02rem;
 }
 
 section button
@@ -116,7 +118,6 @@ section img
 
 
 /*section styles*/
-
 
 /*navigation styles*/
 
@@ -175,7 +176,6 @@ nav .navbar-brand
 
 
 /*navigation styles*/
-
 
 /*header styles*/
 
@@ -254,7 +254,6 @@ header .scroll-down
 
 /*header styles*/
 
-
 /*about styles*/
 
 #about
@@ -311,7 +310,6 @@ header .scroll-down
 
 
 /*about styles*/
-
 
 /*portfolio styles*/
 
@@ -498,7 +496,6 @@ header .scroll-down
 
 /*portfolio styles*/
 
-
 /*contact styles*/
 
 #reach-me-out
@@ -559,7 +556,6 @@ textarea::placeholder
 
 /*contact styles*/
 
-
 /*specific style improvements*/
 
 @media (min-width: 1200px)
@@ -612,7 +608,6 @@ textarea::placeholder
 
 
 /*specific style improvements*/
-
 
 /*footer styles*/
 
