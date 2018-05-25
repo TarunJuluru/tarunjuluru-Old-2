@@ -15,7 +15,7 @@
 
 html,
 body {
-    font-family: 'Handlee', cursive;
+    font-family: 'Imprima', sans-serif;
     font-size: 14px;
 
     position: relative;
@@ -50,7 +50,7 @@ section {
 }
 
 section h5 {
-    font-family: 'Handlee', cursive;
+    font-family: 'Imprima', sans-serif;
     font-size: 1.1rem;
     font-weight: 800;
 
@@ -66,14 +66,14 @@ section .mb {
 }
 
 section h6 {
-    font-family: 'Handlee', cursive;
+    font-family: 'Imprima', sans-serif;
     font-size: 1rem;
 
     letter-spacing: .2rem;
 }
 
 section p {
-    font-family: 'Handlee', cursive;
+    font-family: 'Imprima', sans-serif;
     font-size: 1.1rem;
     line-height: 1.8rem;
 
@@ -83,7 +83,7 @@ section p {
 }
 
 section button {
-    font-family: 'Handlee', cursive;
+    font-family: 'Imprima', sans-serif;
     font-size: .8rem;
     font-weight: 200;
 
@@ -109,7 +109,7 @@ section img {
 /*navigation styles*/
 
 nav {
-    font-family: 'Handlee', cursive;
+    font-family: 'Imprima', sans-serif;
 
     background-color: #fce66e;
     /*    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);*/
@@ -169,7 +169,7 @@ header {
 }
 
 header .heading-container {
-    font-family: 'Handlee', cursive;
+    font-family: 'Imprima', sans-serif;
 
     height: 88vh;
     padding-top: 10vh;
@@ -242,14 +242,14 @@ header .scroll-down {
 }
 
 #about .container {
-    font-family: 'Handlee', cursive;
+    font-family: 'Imprima', sans-serif;
     font-weight: 400;
 
     margin-bottom: 10rem;
 }
 
 #about .container p {
-    font-family: 'Handlee', cursive;
+    font-family: 'Imprima', sans-serif;
     font-size: 1.1rem;
 
     width: 100%;
@@ -580,7 +580,7 @@ textarea::placeholder {
 /*footer styles*/
 
 footer {
-    font-family: 'Handlee', cursive;
+    font-family: 'Imprima', sans-serif;
     font-size: 1.1rem;
 
     position: relative;
