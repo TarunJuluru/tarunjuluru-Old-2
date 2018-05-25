@@ -1,99 +1,86 @@
 /*general styles*/
 
-*
-{
+* {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.menu-icon
-{
+
+.menu-icon {
     stroke: black;
     stroke-linecap: square;
 }
 
 html,
-body
-{
+body {
     font-size: 14px;
+    font-family: 'Handlee', cursive;
 
     position: relative;
 
     margin: 0 auto;
 }
 
-body::-webkit-scrollbar
-{
+body::-webkit-scrollbar {
     display: none;
 }
 
 a:hover,
-button:hover
-{
+button:hover {
     cursor: pointer;
 }
-
-
-
-
 
 
 /*general styles*/
 
 /*section styles*/
 
-section
-{
+section {
     margin-top: 8rem;
 }
 
-@media (max-width: 576px)
-{
-    section
-    {
+@media (max-width: 576px) {
+    section {
         margin-top: 0rem;
     }
 }
 
-section h5
-{
-    font-family: 'PT Mono', monospace;
+section h5 {
+    font-family: 'Handlee', cursive;
     font-size: 1.1rem;
+    font-weight: 800;
 
     margin-bottom: 4rem;
 
     letter-spacing: .2rem;
 }
 
-section .mb
-{
+section .mb {
     margin-bottom: 6rem;
+    line-height: 2rem;
 }
 
-section h6
-{
-    font-family: 'PT Mono', monospace;
+section h6 {
+    font-family: 'Handlee', cursive;
     font-size: 1rem;
 
     letter-spacing: .2rem;
 }
 
-section p
-{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1rem;
+section p {
+    font-family: 'Handlee', cursive;
+    font-size: 1.1rem;
     line-height: 1.8rem;
 
     width: 74%;
 
-    letter-spacing: .02rem;
+    letter-spacing: .04rem;
 }
 
-section button
-{
-    font-family: 'Quicksand', sans-serif;
+section button {
+    font-family: 'Handlee', cursive;
     font-size: .8rem;
     font-weight: 200;
 
@@ -106,47 +93,41 @@ section button
 }
 
 
-section img
-{
+section img {
     -webkit-box-shadow: 0 40px 40px rgba(0, 0, 0, .14);
-            box-shadow: 0 40px 40px rgba(0, 0, 0, .14);
+    box-shadow: 0 40px 40px rgba(0, 0, 0, .14);
 }
-
-
-
-
 
 
 /*section styles*/
 
 /*navigation styles*/
 
-nav
-{
-    font-family: 'PT Mono', monospace;
+nav {
+    font-family: 'Handlee', cursive;
 
-    background-color: white;
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
-            box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    background-color: #fce66e;
+    /*    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);*/
+    /*    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);*/
 }
 
-nav .navbar-nav
-{
+nav .navbar-nav {
     letter-spacing: .1rem;
 }
 
-nav .navbar-brand
-{
+nav .navbar-brand {
     font-size: 1rem;
     font-weight: 600;
 
     letter-spacing: .12rem;
 }
 
-@media (max-width: 1200px)
-{
-    .navbar-nav
-    {
+nav .navbar-nav li a {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 1200px) {
+    .navbar-nav {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -160,94 +141,83 @@ nav .navbar-brand
         -ms-flex-pack: center;
         justify-content: center;
     }
-    .navbar-nav
-    {
+    .navbar-nav {
         height: 100vh;
     }
-    .navbar-nav li
-    {
+    .navbar-nav li {
         padding-bottom: 8vh;
     }
 }
-
-
-
-
 
 
 /*navigation styles*/
 
 /*header styles*/
 
-header
-{
-    background-color: #f2f2f2;
-    background-image: url(../images/header/pen_&_paper.jpg);
+header {
+    background-color: rgba(252, 230, 110, 1.0);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
-header .heading-container
-{
-    font-family: 'PT Mono', monospace;
+header .heading-container {
+    font-family: 'Handlee', cursive;
 
-    height: 90vh;
+    height: 88vh;
     padding-top: 10vh;
 }
 
-header .heading-container h3
-{
+header .heading-container h3 {
+    letter-spacing: .2rem;
     line-height: 3rem;
-
     text-shadow: 0 1px 3px rgba(255, 255, 255, .2);
 }
 
-@-webkit-keyframes bounce
-{
-    0%
-    {
+header .heading-container h5 {
+    letter-spacing: .1rem;
+}
+
+@-webkit-keyframes bounce {
+    0% {
         -webkit-transform: translateY(-4px);
-                transform: translateY(-4px);
+        transform: translateY(-4px);
     }
-    50%
-    {
+    50% {
         -webkit-transform: translateY(8px);
-                transform: translateY(8px);
+        transform: translateY(8px);
     }
-    100%
-    {
+    100% {
         -webkit-transform: translateY(-4px);
-                transform: translateY(-4px);
+        transform: translateY(-4px);
     }
 }
 
-@keyframes bounce
-{
-    0%
-    {
+@keyframes bounce {
+    0% {
         -webkit-transform: translateY(-4px);
-                transform: translateY(-4px);
+        transform: translateY(-4px);
     }
-    50%
-    {
+    50% {
         -webkit-transform: translateY(8px);
-                transform: translateY(8px);
+        transform: translateY(8px);
     }
-    100%
-    {
+    100% {
         -webkit-transform: translateY(-4px);
-                transform: translateY(-4px);
+        transform: translateY(-4px);
     }
 }
 
-header .scroll-down
-{
+header .scroll-down {
     -webkit-animation: bounce 2s infinite alternate ease-in-out;
-            animation: bounce 2s infinite alternate ease-in-out;
+    animation: bounce 2s infinite alternate ease-in-out;
 }
 
-
+@media (max-width: 576px) {
+    header .heading-container h3.pr {
+        padding-right: 40%;
+    }
+}
 
 
 
@@ -256,50 +226,45 @@ header .scroll-down
 
 /*about styles*/
 
-#about
-{
+#about {
     margin-top: 8rem;
 }
 
-#about .container
-{
-    font-family: 'Quicksand', sans-serif;
+#about .container {
+    font-family: 'Handlee', cursive;
+    font-weight: 400;
 
     margin-bottom: 10rem;
 }
 
-#about .container p
-{
+#about .container p {
     width: 100%;
 
     letter-spacing: .04rem;
+    font-family: 'Handlee', cursive;
+    font-size: 1.1rem;
 }
 
-#about img
-{
+#about img {
     width: 30%;
     height: auto;
 
     -webkit-box-shadow: inset 0 4px 4px rgba(0, 0, 0, .14);
-            box-shadow: inset 0 4px 4px rgba(0, 0, 0, .14);
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, .14);
 }
 
-#about .left
-{
+#about .left {
     padding-right: 4rem;
 }
 
-#about .left a
-{
+#about .left a {
     font-size: .9rem;
 
     letter-spacing: .1rem;
 }
 
-@media (max-width: 576px)
-{
-    #about
-    {
+@media (max-width: 576px) {
+    #about {
         margin: 10rem 0rem;
     }
 }
@@ -313,180 +278,160 @@ header .scroll-down
 
 /*portfolio styles*/
 
-#behance .container
-{
+#behance .container {
     padding: 8rem 4rem;
 
     color: white;
     background-color: #1769ff;
 }
 
-#behance button
-{
+#behance button {
     color: #1769ff;
     background-color: white;
 }
 
-#behance button a
-{
+#behance button a {
     text-decoration: none;
 
     color: #1769ff;
 }
 
-#behance button:hover a
-{
+#behance button:hover a {
     -webkit-transition: color 200ms ease-in;
-         -o-transition: color 200ms ease-in;
-            transition: color 200ms ease-in;
+    -o-transition: color 200ms ease-in;
+    transition: color 200ms ease-in;
 
     color: white;
 }
 
-#behance button:hover
-{
+#behance button:hover {
     -webkit-transition: background 200ms ease-in;
-         -o-transition: background 200ms ease-in;
-            transition: background 200ms ease-in;
+    -o-transition: background 200ms ease-in;
+    transition: background 200ms ease-in;
 
     background-color: #1769ff;
+    color: white;
 }
 
-#behance .behance-content
-{
+#behance .behance-content {
     padding-left: 8rem;
 }
 
-#github .container
-{
+#github .container {
     padding: 8rem 4rem;
 
     color: white;
     background-color: #6cc644;
 }
 
-#github button
-{
+#github button {
     color: #6cc644;
     background-color: white;
 }
 
-#github button a
-{
+#github button a {
     text-decoration: none;
 
     color: #6cc644;
 }
 
-#github button:hover a
-{
+#github button:hover a {
     -webkit-transition: color 200ms ease-in;
-         -o-transition: color 200ms ease-in;
-            transition: color 200ms ease-in;
+    -o-transition: color 200ms ease-in;
+    transition: color 200ms ease-in;
 
     color: white;
 }
 
-#github button:hover
-{
+#github button:hover {
     -webkit-transition: background 200ms ease-in;
-         -o-transition: background 200ms ease-in;
-            transition: background 200ms ease-in;
+    -o-transition: background 200ms ease-in;
+    transition: background 200ms ease-in;
 
     background-color: #6cc644;
+    color: white;
 }
 
-#github .github-content
-{
+#github .github-content {
     padding-left: 8rem;
 }
 
-#codepen .container
-{
+#codepen .container {
     padding: 8rem 4rem;
 
     color: black;
     background-color: #ccc;
 }
 
-#codepen .codepen-content
-{
+#codepen .codepen-content {
     padding-left: 8rem;
 }
 
-#codepen button
-{
-    color: #000;
+#codepen button {
+    color: #ccc;
     background-color: black;
 }
 
-#codepen button a
-{
+#codepen button a {
     text-decoration: none;
 
     color: #ccc;
 }
 
-#codepen button:hover a
-{
+#codepen button:hover a {
     -webkit-transition: color 200ms ease-in;
-         -o-transition: color 200ms ease-in;
-            transition: color 200ms ease-in;
+    -o-transition: color 200ms ease-in;
+    transition: color 200ms ease-in;
 
     color: black;
 }
 
-#codepen button:hover
-{
+#codepen button:hover {
     -webkit-transition: background 200ms ease-in;
-         -o-transition: background 200ms ease-in;
-            transition: background 200ms ease-in;
+    -o-transition: background 200ms ease-in;
+    transition: background 200ms ease-in;
 
     background-color: #ccc;
+    color: black;
 }
 
-#notion .container
-{
+#notion .container {
     padding: 8rem 4rem;
 
     color: white;
     background-color: #eb5757;
 }
 
-#notion .notion-content
-{
+#notion .notion-content {
     padding-left: 8rem;
 }
 
-#notion button
-{
+#notion button {
     color: #eb5757;
     background-color: white;
 }
 
-#notion button a
-{
+#notion button a {
     text-decoration: none;
 
     color: #eb5757;
 }
 
-#notion button:hover a
-{
+#notion button:hover a {
     -webkit-transition: color 200ms ease-in;
-         -o-transition: color 200ms ease-in;
-            transition: color 200ms ease-in;
+    -o-transition: color 200ms ease-in;
+    transition: color 200ms ease-in;
 
     color: white;
 }
 
-#notion button:hover
-{
+#notion button:hover {
     -webkit-transition: background 200ms ease-in;
-         -o-transition: background 200ms ease-in;
-            transition: background 200ms ease-in;
+    -o-transition: background 200ms ease-in;
+    transition: background 200ms ease-in;
 
     background-color: #eb5757;
+    color: white;
 }
 
 
@@ -498,54 +443,60 @@ header .scroll-down
 
 /*contact styles*/
 
-#reach-me-out
-{
+#reach-me-out {
     width: 80%;
     margin: auto;
     margin-top: 8rem;
 }
 
 #reach-me-out input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder
-{
+textarea::-webkit-input-placeholder {
     font-size: .8rem;
 
     text-transform: capitalize;
 }
 
 #reach-me-out input:-ms-input-placeholder,
-textarea:-ms-input-placeholder
-{
+textarea:-ms-input-placeholder {
     font-size: .8rem;
 
     text-transform: capitalize;
 }
 
 #reach-me-out input::-ms-input-placeholder,
-textarea::-ms-input-placeholder
-{
+textarea::-ms-input-placeholder {
     font-size: .8rem;
 
     text-transform: capitalize;
 }
 
 #reach-me-out input::placeholder,
-textarea::placeholder
-{
+textarea::placeholder {
     font-size: .8rem;
 
     text-transform: capitalize;
 }
 
-#reach-me-out button
-{
-    font-size: .9rem;
+#reach-me-out button {
+    font-size: .8rem;
 
-    padding: .4rem 2rem;
+    padding: .3rem 1.6rem;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    letter-spacing: .2rem;
 }
 
-#reach-me-out :input
-{
+#reach-me-out button:hover {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    -webkit-transition: background 200ms ease-in;
+    -o-transition: background 200ms ease-in;
+    transition: background 200ms ease-in;
+    background-color: #fce66e;
+    color: black;
+}
+
+#reach-me-out :input {
     border-radius: 4px;
 }
 
@@ -558,13 +509,11 @@ textarea::placeholder
 
 /*specific style improvements*/
 
-@media (min-width: 1200px)
-{
+@media (min-width: 1200px) {
     #behance .container,
     #github .container,
     #codepen .container,
-    #notion .container
-    {
+    #notion .container {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -581,23 +530,19 @@ textarea::placeholder
     #behance .behance-content,
     #github .github-content,
     #codepen .codepen-content,
-    #notion .notion-content
-    {
+    #notion .notion-content {
         padding-top: 4rem;
     }
-    section
-    {
+    section {
         margin-top: 0rem;
     }
 }
 
-@media (max-width: 576px)
-{
+@media (max-width: 576px) {
     #behance .behance-content,
     #github .github-content,
     #codepen .codepen-content,
-    #notion .notion-content
-    {
+    #notion .notion-content {
         padding-left: 0rem;
     }
 }
@@ -611,20 +556,21 @@ textarea::placeholder
 
 /*footer styles*/
 
-footer
-{
-    font-family: 'Quicksand', sans-serif;
-
+footer {
+    font-family: 'Handlee', cursive;
+    font-size: 1.1rem;
     position: relative;
 
     margin-bottom: 10rem;
 }
 
-footer .feather
-{
+footer address.email {
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+}
+
+footer .feather {
     width: 2rem;
-    height: 4rem;
-    padding: 2rem 0rem;
 
     stroke: black;
     stroke-width: 1;
@@ -633,89 +579,71 @@ footer .feather
     fill: none;
 }
 
-footer .twitter:hover
-{
+
+footer .twitter:hover {
     fill: #1da1f2;
     stroke: white;
 }
 
-footer .linkedin:hover
-{
+footer .linkedin:hover {
     fill: #0077b5;
     stroke: white;
 }
 
-footer .instagram:hover
-{
+footer .instagram:hover {
     fill: #dc044f;
     stroke: white;
 }
 
-footer .facebook:hover
-{
+footer .facebook:hover {
     fill: #3b5a9a;
     stroke: white;
 }
 
-footer address
-{
+footer address {
     font-size: .9rem;
 
     margin-top: 2rem;
 }
 
-footer .back-to-top
-{
+footer .back-to-top {
     padding: 0rem 0rem;
+    stroke-width: 1.2;
 }
 
-@-webkit-keyframes back-to-top
-{
-    0%
-    {
+@-webkit-keyframes back-to-top {
+    0% {
         -webkit-transform: translateY(-4px);
-                transform: translateY(-4px);
+        transform: translateY(-4px);
     }
-    50%
-    {
+    50% {
         -webkit-transform: translateY(8px);
-                transform: translateY(8px);
+        transform: translateY(8px);
     }
-    100%
-    {
+    100% {
         -webkit-transform: translateY(-4px);
-                transform: translateY(-4px);
+        transform: translateY(-4px);
     }
 }
 
-@keyframes back-to-top
-{
-    0%
-    {
+@keyframes back-to-top {
+    0% {
         -webkit-transform: translateY(-4px);
-                transform: translateY(-4px);
+        transform: translateY(-4px);
     }
-    50%
-    {
+    50% {
         -webkit-transform: translateY(8px);
-                transform: translateY(8px);
+        transform: translateY(8px);
     }
-    100%
-    {
+    100% {
         -webkit-transform: translateY(-4px);
-                transform: translateY(-4px);
+        transform: translateY(-4px);
     }
 }
 
-footer .back-to-top
-{
+footer .back-to-top {
     -webkit-animation: back-to-top 2s infinite alternate ease-in-out;
-            animation: back-to-top 2s infinite alternate ease-in-out;
+    animation: back-to-top 2s infinite alternate ease-in-out;
 }
-
-
-
-
-
 
 /*footer styles*/
