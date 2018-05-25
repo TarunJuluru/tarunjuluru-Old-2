@@ -15,8 +15,8 @@
 
 html,
 body {
-    font-size: 14px;
     font-family: 'Handlee', cursive;
+    font-size: 14px;
 
     position: relative;
 
@@ -33,7 +33,9 @@ button:hover {
 }
 
 
+
 /*general styles*/
+
 
 /*section styles*/
 
@@ -58,8 +60,9 @@ section h5 {
 }
 
 section .mb {
-    margin-bottom: 6rem;
     line-height: 2rem;
+
+    margin-bottom: 6rem;
 }
 
 section h6 {
@@ -99,7 +102,9 @@ section img {
 }
 
 
+
 /*section styles*/
+
 
 /*navigation styles*/
 
@@ -150,7 +155,9 @@ nav .navbar-nav li a {
 }
 
 
+
 /*navigation styles*/
+
 
 /*header styles*/
 
@@ -169,8 +176,10 @@ header .heading-container {
 }
 
 header .heading-container h3 {
-    letter-spacing: .2rem;
     line-height: 3rem;
+
+    letter-spacing: .2rem;
+
     text-shadow: 0 1px 3px rgba(255, 255, 255, .2);
 }
 
@@ -222,7 +231,9 @@ header .scroll-down {
 
 
 
+
 /*header styles*/
+
 
 /*about styles*/
 
@@ -238,11 +249,12 @@ header .scroll-down {
 }
 
 #about .container p {
+    font-family: 'Handlee', cursive;
+    font-size: 1.1rem;
+
     width: 100%;
 
     letter-spacing: .04rem;
-    font-family: 'Handlee', cursive;
-    font-size: 1.1rem;
 }
 
 #about img {
@@ -274,7 +286,9 @@ header .scroll-down {
 
 
 
+
 /*about styles*/
+
 
 /*portfolio styles*/
 
@@ -309,8 +323,8 @@ header .scroll-down {
     -o-transition: background 200ms ease-in;
     transition: background 200ms ease-in;
 
-    background-color: #1769ff;
     color: white;
+    background-color: #1769ff;
 }
 
 #behance .behance-content {
@@ -348,8 +362,8 @@ header .scroll-down {
     -o-transition: background 200ms ease-in;
     transition: background 200ms ease-in;
 
-    background-color: #6cc644;
     color: white;
+    background-color: #6cc644;
 }
 
 #github .github-content {
@@ -391,8 +405,8 @@ header .scroll-down {
     -o-transition: background 200ms ease-in;
     transition: background 200ms ease-in;
 
-    background-color: #ccc;
     color: black;
+    background-color: #ccc;
 }
 
 #notion .container {
@@ -430,8 +444,8 @@ header .scroll-down {
     -o-transition: background 200ms ease-in;
     transition: background 200ms ease-in;
 
-    background-color: #eb5757;
     color: white;
+    background-color: #eb5757;
 }
 
 
@@ -439,7 +453,9 @@ header .scroll-down {
 
 
 
+
 /*portfolio styles*/
+
 
 /*contact styles*/
 
@@ -481,19 +497,22 @@ textarea::placeholder {
     font-size: .8rem;
 
     padding: .3rem 1.6rem;
-    background-color: white;
+
+    letter-spacing: .2rem;
+
     color: black;
     border: 1px solid black;
-    letter-spacing: .2rem;
+    background-color: white;
 }
 
 #reach-me-out button:hover {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
     -webkit-transition: background 200ms ease-in;
     -o-transition: background 200ms ease-in;
     transition: background 200ms ease-in;
-    background-color: #fce66e;
+
     color: black;
+    background-color: #fce66e;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
 }
 
 #reach-me-out :input {
@@ -505,7 +524,9 @@ textarea::placeholder {
 
 
 
+
 /*contact styles*/
+
 
 /*specific style improvements*/
 
@@ -552,13 +573,16 @@ textarea::placeholder {
 
 
 
+
 /*specific style improvements*/
+
 
 /*footer styles*/
 
 footer {
     font-family: 'Handlee', cursive;
     font-size: 1.1rem;
+
     position: relative;
 
     margin-bottom: 10rem;
@@ -566,6 +590,7 @@ footer {
 
 footer address.email {
     font-size: 1.2rem;
+
     letter-spacing: .1rem;
 }
 
@@ -608,6 +633,7 @@ footer address {
 
 footer .back-to-top {
     padding: 0rem 0rem;
+
     stroke-width: 1.2;
 }
 
@@ -645,5 +671,6 @@ footer .back-to-top {
     -webkit-animation: back-to-top 2s infinite alternate ease-in-out;
     animation: back-to-top 2s infinite alternate ease-in-out;
 }
+
 
 /*footer styles*/
