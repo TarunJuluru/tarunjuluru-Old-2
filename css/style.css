@@ -34,6 +34,7 @@ button:hover {
 
 
 
+
 /*general styles*/
 
 
@@ -48,6 +49,7 @@ section {
         margin-top: 0rem;
     }
 }
+
 
 section h5 {
     font-family: 'Imprima', sans-serif;
@@ -100,6 +102,7 @@ section img {
     -webkit-box-shadow: 0 40px 40px rgba(0, 0, 0, .14);
     box-shadow: 0 40px 40px rgba(0, 0, 0, .14);
 }
+
 
 
 
@@ -156,6 +159,7 @@ nav .navbar-nav li a {
 
 
 
+
 /*navigation styles*/
 
 
@@ -175,7 +179,8 @@ header .heading-container {
     padding-top: 10vh;
 }
 
-header .heading-container h3 {
+header .heading-container h1,
+.heading-container h3 {
     line-height: 3rem;
 
     letter-spacing: .2rem;
@@ -232,6 +237,7 @@ header .scroll-down {
 
 
 
+
 /*header styles*/
 
 
@@ -280,6 +286,7 @@ header .scroll-down {
         margin: 10rem 0rem;
     }
 }
+
 
 
 
@@ -454,6 +461,7 @@ header .scroll-down {
 
 
 
+
 /*portfolio styles*/
 
 
@@ -525,6 +533,7 @@ textarea::placeholder {
 
 
 
+
 /*contact styles*/
 
 
@@ -567,6 +576,7 @@ textarea::placeholder {
         padding-left: 0rem;
     }
 }
+
 
 
 
@@ -671,6 +681,7 @@ footer .back-to-top {
     -webkit-animation: back-to-top 2s infinite alternate ease-in-out;
     animation: back-to-top 2s infinite alternate ease-in-out;
 }
+
 
 
 /*footer styles*/
