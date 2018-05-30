@@ -36,6 +36,7 @@ button:hover {
 
 
 
+
 /*general styles*/
 
 
@@ -108,6 +109,7 @@ section img {
 
 
 
+
 /*section styles*/
 
 
@@ -130,10 +132,15 @@ nav .navbar-brand {
     font-weight: 600;
 
     letter-spacing: .12rem;
+    color: rgba(255, 238, 88, 1.0)!important;
 }
 
 nav .navbar-nav li a {
     font-size: 1.1rem;
+}
+
+nav .navbar-nav li.active a {
+    color: rgba(255, 238, 88, 1.0)!important;
 }
 
 @media (max-width: 1200px) {
@@ -158,6 +165,7 @@ nav .navbar-nav li a {
         padding-bottom: 8vh;
     }
 }
+
 
 
 
@@ -240,6 +248,7 @@ header .scroll-down {
 
 
 
+
 /*header styles*/
 
 
@@ -297,6 +306,7 @@ header .scroll-down {
 
 
 
+
 /*about styles*/
 
 
@@ -306,18 +316,15 @@ header .scroll-down {
     padding: 8rem 4rem;
 
     color: white;
-    background-color: #1769ff;
+    /* background-color: #1769ff; */
+    background-color: rgba(255, 238, 88, 1.0);
 }
 
-#behance button {
-    color: #1769ff;
-    background-color: white;
-}
 
 #behance button a {
     text-decoration: none;
 
-    color: #1769ff;
+    /* color: #1769ff; */
 }
 
 #behance button:hover a {
@@ -334,7 +341,8 @@ header .scroll-down {
     transition: background 200ms ease-in;
 
     color: white;
-    background-color: #1769ff;
+    /* background-color: #1769ff; */
+    background-color: rgba(255, 238, 88, 1.0);
 }
 
 #behance .behance-content {
@@ -345,18 +353,15 @@ header .scroll-down {
     padding: 8rem 4rem;
 
     color: white;
-    background-color: #6cc644;
+    /* background-color: #6cc644; */
+    background-color: rgba(255, 238, 88, 1.0);
 }
 
-#github button {
-    color: #6cc644;
-    background-color: white;
-}
 
 #github button a {
     text-decoration: none;
 
-    color: #6cc644;
+    /* color: #6cc644; */
 }
 
 #github button:hover a {
@@ -373,7 +378,8 @@ header .scroll-down {
     transition: background 200ms ease-in;
 
     color: white;
-    background-color: #6cc644;
+    /* background-color: #6cc644; */
+    background-color: rgba(255, 238, 88, 1.0);
 }
 
 #github .github-content {
@@ -384,22 +390,19 @@ header .scroll-down {
     padding: 8rem 4rem;
 
     color: black;
-    background-color: #ccc;
+    /* background-color: #ccc; */
+    background-color: rgba(255, 238, 88, 1.0);
 }
 
 #codepen .codepen-content {
     padding-left: 8rem;
 }
 
-#codepen button {
-    color: #ccc;
-    background-color: black;
-}
 
 #codepen button a {
     text-decoration: none;
 
-    color: #ccc;
+    /* color: #ccc; */
 }
 
 #codepen button:hover a {
@@ -407,7 +410,7 @@ header .scroll-down {
     -o-transition: color 200ms ease-in;
     transition: color 200ms ease-in;
 
-    color: black;
+    color: white;
 }
 
 #codepen button:hover {
@@ -415,30 +418,28 @@ header .scroll-down {
     -o-transition: background 200ms ease-in;
     transition: background 200ms ease-in;
 
-    color: black;
-    background-color: #ccc;
+    color: white;
+    /* background-color: #ccc; */
+    background-color: rgba(255, 238, 88, 1.0);
 }
 
 #notion .container {
     padding: 8rem 4rem;
 
     color: white;
-    background-color: #eb5757;
+    /* background-color: #eb5757; */
+    background-color: rgba(255, 238, 88, 1.0);
 }
 
 #notion .notion-content {
     padding-left: 8rem;
 }
 
-#notion button {
-    color: #eb5757;
-    background-color: white;
-}
 
 #notion button a {
     text-decoration: none;
 
-    color: #eb5757;
+    /* color: #eb5757; */
 }
 
 #notion button:hover a {
@@ -455,8 +456,10 @@ header .scroll-down {
     transition: background 200ms ease-in;
 
     color: white;
-    background-color: #eb5757;
+    /* background-color: #eb5757; */
+    background-color: rgba(255, 238, 88, 1.0);
 }
+
 
 
 
@@ -539,6 +542,7 @@ textarea::placeholder {
 
 
 
+
 /*contact styles*/
 
 
@@ -581,6 +585,7 @@ textarea::placeholder {
         padding-left: 0rem;
     }
 }
+
 
 
 
@@ -651,6 +656,7 @@ footer .back-to-top {
     padding: 0rem 0rem;
 
     stroke-width: 1.2;
+    background-color: rgba(255, 238, 88, 1.0);
 }
 
 @-webkit-keyframes back-to-top {
@@ -687,6 +693,7 @@ footer .back-to-top {
     -webkit-animation: back-to-top 2s infinite alternate ease-in-out;
     animation: back-to-top 2s infinite alternate ease-in-out;
 }
+
 
 
 
