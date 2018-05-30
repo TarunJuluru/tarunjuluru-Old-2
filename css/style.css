@@ -9,7 +9,7 @@
 
 
 .menu-icon {
-    stroke: black;
+    stroke: white;
     stroke-linecap: square;
 }
 
@@ -31,6 +31,7 @@ a:hover,
 button:hover {
     cursor: pointer;
 }
+
 
 
 
@@ -106,6 +107,7 @@ section img {
 
 
 
+
 /*section styles*/
 
 
@@ -114,7 +116,7 @@ section img {
 nav {
     font-family: 'Imprima', sans-serif;
 
-    background-color: #fce66e;
+    background-color: rgba(255, 238, 88, 1.0);
     /*    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .2);*/
     /*    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);*/
 }
@@ -160,22 +162,20 @@ nav .navbar-nav li a {
 
 
 
+
 /*navigation styles*/
 
 
 /*header styles*/
 
 header {
-    background-color: rgba(252, 230, 110, 1.0);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-color: rgba(255, 238, 88, 1.0);
 }
 
 header .heading-container {
     font-family: 'Imprima', sans-serif;
 
-    height: 88vh;
+    height: 90vh;
     padding-top: 10vh;
 }
 
@@ -191,6 +191,7 @@ header .heading-container h1,
 header .heading-container h5 {
     letter-spacing: .1rem;
 }
+
 
 @-webkit-keyframes bounce {
     0% {
@@ -232,6 +233,7 @@ header .scroll-down {
         padding-right: 40%;
     }
 }
+
 
 
 
@@ -286,6 +288,7 @@ header .scroll-down {
         margin: 10rem 0rem;
     }
 }
+
 
 
 
@@ -462,6 +465,7 @@ header .scroll-down {
 
 
 
+
 /*portfolio styles*/
 
 
@@ -519,13 +523,14 @@ textarea::placeholder {
     transition: background 200ms ease-in;
 
     color: black;
-    background-color: #fce66e;
+    background-color: rgba(255, 238, 88, 1.0);
     box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
 }
 
 #reach-me-out :input {
     border-radius: 4px;
 }
+
 
 
 
@@ -576,6 +581,7 @@ textarea::placeholder {
         padding-left: 0rem;
     }
 }
+
 
 
 
@@ -681,6 +687,7 @@ footer .back-to-top {
     -webkit-animation: back-to-top 2s infinite alternate ease-in-out;
     animation: back-to-top 2s infinite alternate ease-in-out;
 }
+
 
 
 
