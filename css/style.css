@@ -37,6 +37,8 @@ button:hover {
 
 
 
+
+
 /*general styles*/
 
 
@@ -110,6 +112,8 @@ section img {
 
 
 
+
+
 /*section styles*/
 
 
@@ -132,6 +136,7 @@ nav .navbar-brand {
     font-weight: 600;
 
     letter-spacing: .12rem;
+
     color: rgba(255, 238, 88, 1.0)!important;
 }
 
@@ -165,6 +170,8 @@ nav .navbar-nav li.active a {
         padding-bottom: 8vh;
     }
 }
+
+
 
 
 
@@ -237,10 +244,17 @@ header .scroll-down {
 }
 
 @media (max-width: 576px) {
-    header .heading-container h3.pr {
-        padding-right: 40%;
+    header .heading-container h1,
+    header .heading-container h3,
+    header .heading-container h5 {
+        text-align: center!important;
+        width: 100%!important;
+        margin: 2rem auto!important;
+        padding: 0 3rem;
     }
 }
+
+
 
 
 
@@ -307,6 +321,8 @@ header .scroll-down {
 
 
 
+
+
 /*about styles*/
 
 
@@ -321,11 +337,27 @@ header .scroll-down {
 }
 
 
+#behance button {
+    border-bottom: 2px solid white;
+}
+
+#behance button:hover {
+    -webkit-transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+    -o-transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+    transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+
+    color: black!important;
+    border-bottom: 2px solid black;
+    background-color: #fff!important;
+}
+
+
 #behance button a {
     text-decoration: none;
 
     /* color: #1769ff; */
 }
+
 
 #behance button:hover a {
     -webkit-transition: color 200ms ease-in;
@@ -335,15 +367,6 @@ header .scroll-down {
     color: white;
 }
 
-#behance button:hover {
-    -webkit-transition: background 200ms ease-in;
-    -o-transition: background 200ms ease-in;
-    transition: background 200ms ease-in;
-
-    color: white;
-    /* background-color: #1769ff; */
-    background-color: rgba(255, 238, 88, 1.0);
-}
 
 #behance .behance-content {
     padding-left: 8rem;
@@ -355,6 +378,20 @@ header .scroll-down {
     color: white;
     /* background-color: #6cc644; */
     background-color: rgba(255, 238, 88, 1.0);
+}
+
+#github button {
+    border-bottom: 2px solid white;
+}
+
+#github button:hover {
+    -webkit-transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+    -o-transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+    transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+
+    color: black!important;
+    border-bottom: 2px solid black;
+    background-color: #fff!important;
 }
 
 
@@ -372,15 +409,6 @@ header .scroll-down {
     color: white;
 }
 
-#github button:hover {
-    -webkit-transition: background 200ms ease-in;
-    -o-transition: background 200ms ease-in;
-    transition: background 200ms ease-in;
-
-    color: white;
-    /* background-color: #6cc644; */
-    background-color: rgba(255, 238, 88, 1.0);
-}
 
 #github .github-content {
     padding-left: 8rem;
@@ -392,6 +420,20 @@ header .scroll-down {
     color: black;
     /* background-color: #ccc; */
     background-color: rgba(255, 238, 88, 1.0);
+}
+
+#codepen button {
+    border-bottom: 2px solid white;
+}
+
+#codepen button:hover {
+    -webkit-transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+    -o-transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+    transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+
+    color: black!important;
+    border-bottom: 2px solid black;
+    background-color: #fff!important;
 }
 
 #codepen .codepen-content {
@@ -413,15 +455,7 @@ header .scroll-down {
     color: white;
 }
 
-#codepen button:hover {
-    -webkit-transition: background 200ms ease-in;
-    -o-transition: background 200ms ease-in;
-    transition: background 200ms ease-in;
 
-    color: white;
-    /* background-color: #ccc; */
-    background-color: rgba(255, 238, 88, 1.0);
-}
 
 #notion .container {
     padding: 8rem 4rem;
@@ -429,6 +463,20 @@ header .scroll-down {
     color: white;
     /* background-color: #eb5757; */
     background-color: rgba(255, 238, 88, 1.0);
+}
+
+#notion button {
+    border-bottom: 2px solid white;
+}
+
+#notion button:hover {
+    -webkit-transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+    -o-transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+    transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+
+    color: black!important;
+    border-bottom: 2px solid black;
+    background-color: #fff!important;
 }
 
 #notion .notion-content {
@@ -450,15 +498,8 @@ header .scroll-down {
     color: white;
 }
 
-#notion button:hover {
-    -webkit-transition: background 200ms ease-in;
-    -o-transition: background 200ms ease-in;
-    transition: background 200ms ease-in;
 
-    color: white;
-    /* background-color: #eb5757; */
-    background-color: rgba(255, 238, 88, 1.0);
-}
+
 
 
 
@@ -509,30 +550,29 @@ textarea::placeholder {
 }
 
 #reach-me-out button {
-    font-size: .8rem;
-
-    padding: .3rem 1.6rem;
-
-    letter-spacing: .2rem;
+    padding: .4rem 2rem;
 
     color: black;
-    border: 1px solid black;
-    background-color: white;
+    border-bottom: 2px solid black;
+    background-color: rgba(255, 238, 88, 1.0);
 }
 
 #reach-me-out button:hover {
-    -webkit-transition: background 200ms ease-in;
-    -o-transition: background 200ms ease-in;
-    transition: background 200ms ease-in;
+    -webkit-transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+    -o-transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+    transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
 
-    color: black;
-    background-color: rgba(255, 238, 88, 1.0);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    color: white;
+    border-bottom: 2px solid rgba(255, 238, 88, 1.0);
+    background-color: black;
 }
+
 
 #reach-me-out :input {
     border-radius: 4px;
 }
+
+
 
 
 
@@ -577,14 +617,31 @@ textarea::placeholder {
     }
 }
 
+
 @media (max-width: 576px) {
+    #behance .container,
+    #github .container,
+    #codepen .container,
+    #notion .container {
+        padding-bottom: 4rem;
+    }
+
     #behance .behance-content,
     #github .github-content,
     #codepen .codepen-content,
     #notion .notion-content {
         padding-left: 0rem;
     }
+    #behance .behance-content button,
+    #github .github-content button,
+    #codepen .codepen-content button,
+    #notion .notion-content button {
+        padding: 1rem 2rem;
+    }
 }
+
+
+
 
 
 
@@ -622,29 +679,18 @@ footer .feather {
     stroke-width: 1;
     stroke-linecap: round;
     stroke-linejoin: round;
-    fill: none;
+    fill: rgba(255, 238, 88, 1.0);
 }
 
+footer .feather:hover {
+    -webkit-transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+    -o-transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
+    transition: background 200ms ease-in, color 200ms ease-in, border 200ms ease-in;
 
-footer .twitter:hover {
-    fill: #1da1f2;
-    stroke: white;
+    fill: black;
+    stroke: rgba(255, 238, 88, 1.0);
 }
 
-footer .linkedin:hover {
-    fill: #0077b5;
-    stroke: white;
-}
-
-footer .instagram:hover {
-    fill: #dc044f;
-    stroke: white;
-}
-
-footer .facebook:hover {
-    fill: #3b5a9a;
-    stroke: white;
-}
 
 footer address {
     font-size: .9rem;
@@ -655,8 +701,9 @@ footer address {
 footer .back-to-top {
     padding: 0rem 0rem;
 
-    stroke-width: 1.2;
     background-color: rgba(255, 238, 88, 1.0);
+
+    stroke-width: 1.2;
 }
 
 @-webkit-keyframes back-to-top {
@@ -693,6 +740,8 @@ footer .back-to-top {
     -webkit-animation: back-to-top 2s infinite alternate ease-in-out;
     animation: back-to-top 2s infinite alternate ease-in-out;
 }
+
+
 
 
 
