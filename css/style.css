@@ -9,7 +9,7 @@
 
 
 .menu-icon {
-    stroke: white;
+    stroke: rgba(255, 238, 88, 1.0)!important;
     stroke-linecap: square;
 }
 
@@ -136,8 +136,6 @@ nav .navbar-brand {
     font-weight: 600;
 
     letter-spacing: .12rem;
-
-    color: rgba(255, 238, 88, 1.0)!important;
 }
 
 nav .navbar-nav li a {
@@ -701,7 +699,7 @@ footer address {
 footer .back-to-top {
     padding: 0rem 0rem;
 
-    background-color: rgba(255, 238, 88, 1.0);
+    /* background-color: rgba(255, 238, 88, 1.0); */
 
     stroke-width: 1.2;
 }

@@ -26,6 +26,20 @@ $(document).ready(function() {
     //    });
 
 
+    //targeting the window width
+    $(window).on("scroll", function() {
+        if (window.matchMedia("(max-width: 576px)").matches) {
+
+            //hiding the navigation on scroll position
+            if ($(document).scrollTop() > 80) {
+                $("nav").fadeOut();
+            } else {
+                $("nav").fadeIn();
+            }
+        };
+    });
+
+
     // Smooth scrolling through respective sections on clicking nav-links
     $scrollLink.click(function(event) {
         event.preventDefault();
