@@ -41,6 +41,7 @@ button:hover {
 
 
 
+
 /*general styles*/
 
 
@@ -118,6 +119,7 @@ section img {
 
 
 
+
 /*section styles*/
 
 
@@ -185,6 +187,7 @@ nav .navbar-nav li.active a {
 
 
 
+
 /*navigation styles*/
 
 
@@ -204,7 +207,7 @@ header .heading-container {
 header .heading-container h1,
 .heading-container h3,
 .heading-container h4 {
-    line-height: 3rem;
+    line-height: 2.4rem;
 
     letter-spacing: .2rem;
 
@@ -262,6 +265,9 @@ header .scroll-down {
 
         text-align: center!important;
     }
+    header .heading-container h4 {
+        text-transform: capitalize!important;
+    }
 }
 
 h5 {
@@ -293,6 +299,7 @@ h4 {
 header .ux {
     text-decoration: underline;
 }
+
 
 
 
@@ -348,6 +355,7 @@ header .ux {
         margin: 10rem 0rem;
     }
 }
+
 
 
 
@@ -551,6 +559,7 @@ header .ux {
 
 
 
+
 /*portfolio styles*/
 
 
@@ -626,6 +635,7 @@ textarea::placeholder {
 
 
 
+
 /*contact styles*/
 
 
@@ -682,6 +692,7 @@ textarea::placeholder {
         padding: 1rem 2rem;
     }
 }
+
 
 
 
@@ -783,6 +794,7 @@ footer .back-to-top {
     -webkit-animation: back-to-top 2s infinite alternate ease-in-out;
     animation: back-to-top 2s infinite alternate ease-in-out;
 }
+
 
 
 
