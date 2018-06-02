@@ -136,6 +136,8 @@ nav .navbar-brand {
     font-weight: 600;
 
     letter-spacing: .12rem;
+    font-family: 'Imprima', sans-serif;
+    color: rgba(255, 238, 88, 1.0)!important;
 }
 
 nav .navbar-nav li a {
@@ -661,7 +663,7 @@ footer {
 
     position: relative;
 
-    margin-bottom: 10rem;
+    margin-bottom: 14rem;
 }
 
 footer address.email {

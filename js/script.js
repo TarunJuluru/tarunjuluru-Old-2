@@ -26,18 +26,17 @@ $(document).ready(function() {
     //    });
 
 
-    //targeting the window width
-    $(window).on("scroll", function() {
-        if (window.matchMedia("(max-width: 576px)").matches) {
-
-            //hiding the navigation on scroll position
-            if ($(document).scrollTop() > 80) {
-                $("nav").fadeOut();
-            } else {
-                $("nav").fadeIn();
-            }
-        };
-    });
+    // Hide/Show navbar on scroll position
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            $("nav").slideDown(400);
+        } else {
+            $("nav").slideUp(400);
+        }
+        prevScrollpos = currentScrollPos;
+    }
 
 
     // Smooth scrolling through respective sections on clicking nav-links
