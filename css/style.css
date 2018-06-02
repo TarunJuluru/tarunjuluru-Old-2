@@ -39,6 +39,8 @@ button:hover {
 
 
 
+
+
 /*general styles*/
 
 
@@ -114,6 +116,8 @@ section img {
 
 
 
+
+
 /*section styles*/
 
 
@@ -132,11 +136,12 @@ nav .navbar-nav {
 }
 
 nav .navbar-brand {
+    font-family: 'Imprima', sans-serif;
     font-size: 1rem;
     font-weight: 600;
 
     letter-spacing: .12rem;
-    font-family: 'Imprima', sans-serif;
+
     color: rgba(255, 238, 88, 1.0)!important;
 }
 
@@ -178,6 +183,8 @@ nav .navbar-nav li.active a {
 
 
 
+
+
 /*navigation styles*/
 
 
@@ -195,7 +202,8 @@ header .heading-container {
 }
 
 header .heading-container h1,
-.heading-container h3 {
+.heading-container h3,
+.heading-container h4 {
     line-height: 3rem;
 
     letter-spacing: .2rem;
@@ -246,16 +254,45 @@ header .scroll-down {
 @media (max-width: 576px) {
     header .heading-container h1,
     header .heading-container h3,
+    header .heading-container h4,
     header .heading-container h5 {
-        text-align: center!important;
         width: 100%!important;
         margin: 2rem auto!important;
         padding: 0 3rem;
+
+        text-align: center!important;
     }
 }
 
+h5 {
+    animation: onload .8s;
+}
+
+h1 {
+    animation: onload 1s;
+}
+
+h4 {
+    animation: onload 1.2s;
+}
 
 
+@keyframes onload {
+    0% {
+        transform: translateY(40px);
+
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+
+        opacity: 1;
+    }
+}
+
+header .ux {
+    text-decoration: underline;
+}
 
 
 
@@ -311,6 +348,8 @@ header .scroll-down {
         margin: 10rem 0rem;
     }
 }
+
+
 
 
 
@@ -510,6 +549,8 @@ header .scroll-down {
 
 
 
+
+
 /*portfolio styles*/
 
 
@@ -571,6 +612,8 @@ textarea::placeholder {
 #reach-me-out :input {
     border-radius: 4px;
 }
+
+
 
 
 
@@ -652,6 +695,8 @@ textarea::placeholder {
 
 
 
+
+
 /*specific style improvements*/
 
 
@@ -700,9 +745,7 @@ footer address {
 
 footer .back-to-top {
     padding: 0rem 0rem;
-
     /* background-color: rgba(255, 238, 88, 1.0); */
-
     stroke-width: 1.2;
 }
 
@@ -740,6 +783,8 @@ footer .back-to-top {
     -webkit-animation: back-to-top 2s infinite alternate ease-in-out;
     animation: back-to-top 2s infinite alternate ease-in-out;
 }
+
+
 
 
 

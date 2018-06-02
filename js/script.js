@@ -26,6 +26,7 @@ $(document).ready(function() {
     //    });
 
 
+
     // Hide/Show navbar on scroll position
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
