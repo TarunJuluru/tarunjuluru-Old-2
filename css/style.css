@@ -11,6 +11,7 @@
 .menu-icon {
     stroke: rgba(236, 240, 241, 1.0) !important;
     stroke-linecap: square;
+    border: 2px solid #343a40;
 }
 
 html,
@@ -113,6 +114,14 @@ section img {
 
 h6 .work-profile {
     opacity: .4;
+    font-size: .8rem;
+}
+
+@media (max-width: 576px) {
+    h6 .work-profile {
+        text-align: center;
+        margin: auto;
+    }
 }
 
 
@@ -144,7 +153,7 @@ nav .navbar-brand {
 
     letter-spacing: .12rem;
 
-    color: rgb(236, 240, 241) !important;
+    color: #343a40 !important;
 }
 
 nav .navbar-nav li a {
@@ -361,7 +370,7 @@ header .ux {
 
 @media (max-width: 576px) {
     #about {
-        margin: 10rem 0rem;
+        margin: 8rem 0rem;
     }
 }
 
@@ -423,7 +432,7 @@ header .ux {
 }
 
 
-#baseblock .behance-content {
+#baseblock .baseblock-content {
     padding-left: 8rem;
 }
 
@@ -738,7 +747,7 @@ textarea::placeholder {
     #codepen .container,
     #notion .container,
     #baseblock .container {
-        padding-bottom: 4rem;
+        padding-bottom: 2rem;
     }
 
     #behance .behance-content,
@@ -753,7 +762,7 @@ textarea::placeholder {
     #github .github-content button,
     #codepen .codepen-content button,
     #notion .notion-content button,
-    #baseblock .baseblock-content {
+    #baseblock .baseblock-content button {
         padding: 1rem 2rem;
     }
 }
