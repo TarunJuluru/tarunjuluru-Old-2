@@ -12,7 +12,13 @@
     stroke: rgba(236, 240, 241, 1.0) !important;
     stroke-linecap: square;
     border: 2px solid #343a40;
+    width: 2rem;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: rgba(236, 240, 241, 1.0);
 }
+
 
 html,
 body {
@@ -283,6 +289,10 @@ header .scroll-down {
 
     header .heading-container h4 {
         text-transform: capitalize !important;
+    }
+
+    header .heading-container h4 span {
+        display: inline-block;
     }
 }
 
